@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <title>vũ đại test</title>
+</head>
+<body>
+<h1>this is a practice for 1 pro hacker in future :)</h1>
+<br>
+<p>my full name is phạm vũ đại</p>
+<p>my birday is 18 nov 1997</p>
+<p>i'm living in hanoi capital</p>
+<p>and now i studing at codegym</p>
+<p>to day, 07 oct 2021, i make some practice:</p>
+<pre>
+    <h2>1. các thẻ:</h2>
+    "title" = hiển thị tiêu đề
+    "p" = hiển thị văn bản không ngắt dòng
+    "br" = để ngắt dòng
+    "pre" = để hiển thị văn bản ngắt dòng giống y hệt như lúc gõ code
+</pre>
+<pre>
+  <h2>2. note liên kết:</h2>
+<a href="https://www.facebook.com/profile.php?id=100006723764402">this is my facebook</a>
+</pre>
+<pre><h2>3. Liên kết cục bộ</h2>
+  Ví dụ trên dùng một địa chỉ URL tuyệt đối (địa chỉ đầy đủ của trang web).
+
+  Ta có thể dùng một liên kết cục bộ khi trỏ đến địa chỉ trên trang web của chính mình.
+
+  Liên kết cục bộ có thuộc tính href là một địa chỉ URL tương đối (không có http://www...).
+  (cái này không hiểu lắm nên không làm ví dụ)
+</pre>
+<pre><h2>4. tạo màu cho link</h2>
+  <a href="https://www.facebook.com/" style="text-decoration: none"><span style="color: red">facebook home</span></a>
+</pre>
+<pre><h2>5.Thuộc tính target của một liên kết</h2>
+Thuộc tính target cho trình duyệt biết cách mở ra trang web trong thẻ href.
+
+Thuộc tính target có thể là một trong các giá trị sau:
+
+_blank - Mở liên kết trong một cửa sổ hoặc một tab mới của trình duyệt
+_self - Mở liên kết trong tab/cửa sổ hiện tại của trình duyệt (Không cần khai báo cũng được vì đây là mặc định của thẻ <a>)
+_parent - Mở liên kết trong parent frame
+_top - Mở liên kết trong cửa sổ chính
+framename - Mở liên kết trong một frame có tên là framename (Tìm hiểu thêm về thẻ <frame>)
+    *vd blank: <a href="https://www.facebook.com/"target="_blank"> facebook home</a>
+    *vd parent: <a href="https://www.facebook.com/"target="_parent"> facebook home</a>
+    *vd top: <a href="https://www.facebook.com/"target="_top"> facebook home</a>
+    *vd feamename: <a href="https://www.facebook.com/"target="feamename">face book home</a></pre>
+<pre><h2>6. dùng ảnh làm liên kết</h2>
+  this is my face book:
+  <a href="http://www.facebook.com" target="_blank">
+  <img src="https://scontent.fhan3-3.fna.fbcdn.net/v/t1.6435-9/150233861_2887491931484904_5276251967325425780_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=stVEDLM1VFAAX_1v3gb&_nc_ht=scontent.fhan3-3.fna&oh=533ba779a2e70767bb3ab75f7d9b5973&oe=61840698"
+       style="border:0;">
+</a></pre>
+<pre><h2>* tổng kết:</h2>
+  Dùng thẻ <a> để định nghĩa một liên kết
+Dùng thuộc tính href để định nghĩa địa chỉ của liên kết
+Dùng thuộc tính target để định nghĩa cách trình duyệt mở liên kết
+Dùng thẻ <img> bên trong thẻ <a> để tạo liên kết bằng ảnh
+Dùng thuộc tính id (id="bookmark_1") để tạo bookmark cho trang web
+Dùng thuộc tính href  (href="#bookmark_1") để liên kết đến bookmark có id =  bookmark_1</pre>
+<br>
+<h1>THẺ HIỂN THỊ HÌNH ẢNH</h1>
+<p>thẻ là< img ></p>
+<pre><img src="https://scontent.fhan3-5.fna.fbcdn.net/v/t1.6435-9/51132422_2296859287214841_4378707183903178752_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=174925&_nc_ohc=wRYLgBKMuDkAX_KAHCN&_nc_ht=scontent.fhan3-5.fna&oh=518827ee044bd68a9ed616adb5eb3b1e&oe=6183DAC5" alt=""></pre>
+<h2>thuộc tính alt</h2>
+<pre>Thuộc tính alt tạo ra một dòng chữ thay thế cho hình ảnh trong trường hợp ảnh không hiển thị được (do mạng chậm, đường dẫn của thuộc tính src bị sai, hoặc khi người duyệt web dùng một phần mềm đọc màn hình - screen reader).
+
+Nếu trình duyệt không tìm thấy hình ảnh, nó sẽ hiển thị giá trị của thuộc tính alt:
+công thức:< img src="link ảnh" alt="nó ở đây nhá">
+  <h2>cỡ ảnh - chiều rộng và chiều cao</h2>
+  <pre>Ta dùng thuộc tính style để chỉ định chiều rộng và chiều cao của ảnh.
+
+Giá trị tính theo pixel (thêm px sau số chỉ chiều rộng/cao)
+  công thức:< img src="link ảnh" alt="tên thay thế ảnh" style="width:"chiều rộng"px;height:"chiều cao:px;"></pre>
+*vd:
+  <img src="https://scontent.fhan3-5.fna.fbcdn.net/v/t31.18172-8/28699189_2085387848361987_7470554612910308059_o.jpg?_nc_cat=109&ccb=1-5&_nc_sid=174925&_nc_ohc=o5pLesP2QWcAX8GlMpi&_nc_ht=scontent.fhan3-5.fna&oh=045db0ebb7bef4b500bc363c5c8e2430&oe=618456FA" alt="đại óc chó" style="height:250px;width:300px ">
+</pre>
+<h3>CÒN 1 ĐOẠN NỮA NHƯNG MÀ CÓ THỂ CHƯA DÙNG ĐẾN VÀ KHÁ DÀI NÊN BỎ QUA ĐỂ HỌC BÀI KHÁC</h3>
+</body>
+</html>
